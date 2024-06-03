@@ -3,6 +3,7 @@ class UPI:
         self.name = ""
         self.account = 0
         self.upi_pin = 0
+        self.new_upi_pin = 0
         self.bank_account = 0
         self.acc_balance = 0
         self.attempts = 0
@@ -28,6 +29,9 @@ class UPI:
             f.write(f'Bank Account Number: {self.bank_account}\n')
             f.write(f'Bank Balance: {self.balance}\n')
         self.menu()
+        print()
+        print()
+        print()
        
     def login(self):
         print("Enter your UPI account number : ")
@@ -45,6 +49,9 @@ class UPI:
             f.write(f'Bank Account Number: {self.bank_account}\n')
             f.write(f'Bank Balance: {self.balance}\n')
         self.menu()
+        print()
+        print()
+        print()
     
         
     def menu(self):
@@ -80,6 +87,9 @@ class UPI:
         else:
             print("Transfer failed")
         self.menu()
+        print()
+        print()
+        print()
     
     def deposit(self):
         print("Enter the amount to deposit : ")
@@ -92,10 +102,16 @@ class UPI:
         else:
             print("Deposit failed")
         self.menu()
+        print()
+        print()
+        print()
     
     def balance(self):
         print("Your balance is : ", self.acc_balance)
         self.menu()
+        print()
+        print()
+        print()
     
     def change_upi_pin(self):
         print("Enter the new UPI PIN : ")
@@ -108,14 +124,20 @@ class UPI:
         else:
             print("UPI PIN not matched. Re-enter again")
         self.menu()
+        print()
+        print()
+        print()
     
     def transactions(self):
         print("Transaction History:")
         for transaction in self.transaction_history:
             print(transaction)
         self.menu()
+        print()
+        print()
+        print()
 
-obj = UPI()
+obj = UPI()__
 print("1. Register\n2. Login")
 option = int(input())
 if option == 1:

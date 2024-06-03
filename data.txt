@@ -1,23 +1,5 @@
-Name: Krishna
-UPI Account Number: 10120
-UPI PIN: 1000
+Name: name
+UPI Account Number: 12345
+UPI PIN: 2003
 Bank Account Number: 8179560468
-Bank Balance: 670000
-
-Login Data:
-UPI Account Number: 10120
-UPI PIN: 1000
-Bank Account Number: 8179560468
-Bank Balance: 670000
-
-Login Data:
-UPI Account Number: 10120
-UPI PIN: 1000
-Bank Account Number: 8179560468
-Bank Balance: 76000
-
-Login Data:
-UPI Account Number: 10205
-UPI PIN: 1000
-Bank Account Number: 8179560468
-Bank Balance: <bound method UPI.balance of <__main__.UPI object at 0x7f877d65ac00>>
+Bank Balance: <bound method UPI.balance of <__main__.UPI object at 0x7ff5af53f050>>
